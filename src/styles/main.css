@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ocean {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #87CEEB 0%, #1E90FF 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.fish {
+  position: absolute;
+  font-size: 2rem;
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+  /* Remove this when adding actual fish image */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
